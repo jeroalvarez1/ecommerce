@@ -1,0 +1,79 @@
+{% load static %}
+<nav>
+    <div class="top-nav">
+        <div class="search-side">
+            {# Barra de busqueda #}
+            <form action="#" method="GET">
+                <input type="search" id="search-input">
+                <button id="search-btn" type="submit">Buscar</button>
+            </form>
+        </div>
+        <div class="logo-side">
+            {# Logo o nombre de la empresa #}
+            <img class="logo-navbar" src="{% static 'img/logo-example.png' %}" alt="">
+        </div>
+        <div class="accout-side">
+            <div class="container-account">
+                <p>Iniciar sesion</p>
+                <p>Crear cuenta</p>
+                <p>Ir al carrito</p>
+            </div>
+            {# Crear cuenta, iniciar sesion, carrito de compra #}
+        </div>
+    </div>
+    <div class="button-nav">
+        {# Aca van todos los productos #}
+        <div class="products">
+            <div class="main-btn">Productos</div>
+            <div class="list-sections">
+                <div class="cont-section">
+                    <div class="index sections">Inicio</div>
+                </div>
+                <div class="cont-section">
+                    <div class="men sections">Hombre</div>
+                    <div class="men-list list">
+                        <div>Calsado</div>
+                        <div>Indumentaria</div>
+                    </div>
+                </div>
+                <div class="cont-section">
+                    <div class="women sections">Mujer</div>
+                    <div class="women-list list">
+                        <div>Calsado</div>
+                        <div>Indumentaria</div>
+                    </div>
+                </div>
+                <div class="cont-section">
+                    <div class="child sections">Niño</div>
+                    <div class="child-list list">
+                        <div>Calsado</div>
+                        <div>Indumentaria</div>
+                    </div>
+                </div>
+                <div class="cont-section">
+                    <div class="accessories sections">Accesorios</div>
+                    <div class="accessories-list list">
+                        <div>Cabello</div>
+                        <div>Cosmetica</div>
+                        <div>Gorras</div>
+                        <div>Marroquineria</div>
+                        <div>Pelotas</div>
+                        <div>Paraguas</div>
+                    </div>
+                </div>
+                <div class="cont-section">
+                    <div class="offers sections">Ofertas</div>
+                    <div class="offers-list list">
+                        <div>Hombre</div>
+                        <div>Mujer</div>
+                        <div>Niño</div>
+                        <div>Acessorios</div>
+                    </div>
+                </div>
+                <div class="cont-section">
+                    <div class="contact sections">Contacto</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
